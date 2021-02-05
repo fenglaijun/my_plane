@@ -19,8 +19,8 @@
  *
  */
 
-#ifndef __SENSORS_MPU9250_LPS25H_H__
-#define __SENSORS_MPU9250_LPS25H_H__
+#ifndef __SENSORS_MPU9250_BMP280_H__
+#define __SENSORS_MPU9250_BMP280_H__
 
 #include "sensors.h"
 
@@ -36,4 +36,4 @@ bool sensorsMpu6050Hmc5883lMs5611ReadMag(Axis3f *mag);
 bool sensorsMpu6050Hmc5883lMs5611ReadBaro(baro_t *baro);
 void sensorsMpu6050Hmc5883lMs5611SetAccMode(accModes accMode);
 
-#endif // __SENSORS_MPU9250_LPS25H_H__
+#endif // __SENSORS_MPU9250_BMP280_H__

@@ -28,6 +28,10 @@
 
 #include "sensors.h"
 
+#define GPIO_INTA_MPU9250_IO CONFIG_MPU_PIN_INT
+#define ESP_INTR_FLAG_DEFAULT 0
+
+
 void sensorsMpu9250Lps25hInit(void);
 bool sensorsMpu9250Lps25hTest(void);
 bool sensorsMpu9250Lps25hAreCalibrated(void);
